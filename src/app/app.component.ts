@@ -2,6 +2,7 @@
 import { Component } from '@angular/core';
 import { UserRegistrationFormComponent } from './user-registration-form/user-registration-form.component';
 import { MatDialog } from '@angular/material/dialog';
+import { MovieCardComponent } from './movie-card/movie-card.component';
 
 @Component({
   selector: 'app-root',
@@ -10,6 +11,12 @@ import { MatDialog } from '@angular/material/dialog';
 })
 export class AppComponent {
   title = 'PureriverFilms-Angular-client';
+
+  openMoviesDialog(): void {
+    this.dialog.open(MovieCardComponent, {
+      width: '500px',
+    });
+  }
 
   constructor(public dialog: MatDialog) {}
   // This is the function that will open the dialog when the signup button is clicked
