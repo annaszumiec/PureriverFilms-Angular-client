@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
@@ -18,6 +19,7 @@ import { UserRegistrationFormComponent } from './user-registration-form/user-reg
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     MatInputModule,
     MatButtonModule,
     MatCardModule,
