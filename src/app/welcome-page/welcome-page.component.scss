@@ -1,0 +1,28 @@
+$backgroundColor: #0f120e;
+
+.main-page {
+  text-align: center;
+  background-color: #3a473d;
+  height: 100vh;
+  color: #d8e4fa;
+}
+h1 {
+  padding-top: 30px;
+}
+.mat-mdc-raised-button.login {
+  background-color: #d8e4fa;
+  color: #3a473d;
+  font-weight: 600;
+}
+.mat-mdc-raised-button.login:hover {
+  background-color: #7c887f;
+}
+
+.mat-mdc-raised-button.signup {
+  background-color: #d8e4fa;
+  color: #3a473d;
+  font-weight: 600;
+}
+.mat-mdc-raised-button.signup:hover {
+  background-color: #7c887f;
+}

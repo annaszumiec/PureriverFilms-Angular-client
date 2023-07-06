@@ -1,0 +1,41 @@
+h1,
+h2 {
+  color: #d8e4fa;
+}
+p,
+div {
+  color: gray;
+}
+
+.icon-display {
+  transform: scale(2);
+}
+
+.form {
+  padding: 10px;
+  border: none;
+}
+input {
+  padding: 10px;
+  border: none;
+  min-height: 20px;
+  background-color: #3a473d;
+  color: #d8e4fa;
+}
+
+.mat-mdc-raised-button.update {
+  background-color: #d8e4fa;
+  color: #3a473d;
+}
+.mat-mdc-raised-button.update:hover {
+  background-color: #aab2c1;
+}
+
+.mat-mdc-button.delete {
+  background-color: #f41b2d;
+  color: #d8e4fa;
+  margin: 20px;
+}
+.mat-mdc-button.delete:hover {
+  background-color: #be1f2d;
+}
