@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "build:prod": "ng build --configuration production --aot",
-    "test": "ng test"
+    "test": "ng test",
+    "docs": "typedoc"
   },
   "private": true,
   "dependencies": {
@@ -37,6 +38,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "typedoc": "^0.24.8",
     "typescript": "~5.1.3"
   }
 }
